@@ -145,15 +145,20 @@ a:link {color: hsl(170, 45%, 43%);
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
+            text-align: center;
             color: white;}
 
 .section-c__h {padding-top: 59.5px;
                margin-bottom: 24px;}
 
-.section-c__p {margin-bottom: 25.5px; width: 72.53%; text-align: center;}
+.section-c__p {margin-bottom: 25.5px;
+               width: 72.53%;
+               margin-left: auto;
+               margin-right: auto;
+               text-align: center;}
 
 .section-c__email-bottom {margin-bottom: 8px;
-                          width: 64%;
+                          width: 100%;
                           border: none;
                           height: 32px;}
 
@@ -162,7 +167,7 @@ a:link {color: hsl(170, 45%, 43%);
                    vertical-align: middle;
                    text-align: center;
                    background-color: hsl(224, 93%, 58%);
-                   width: 64%}
+                   width: 100%}
 
 .section-c__email-bottom::placeholder {padding-left: 8.5px;
                                        color: hsl(0, 0%, 75%);}
@@ -305,7 +310,7 @@ a:link {color: hsl(170, 45%, 43%);
                  align-items: center;
                  background-color: white;
                  text-align: center;
-                 box-shadow: 5px 5px hsla(0, 0%, 75%, 0.4);}
+                 box-shadow: 50px 50px hsla(0, 0%, 75%, 0.4);}
 
 .quotes {align-self: flex-start;}
 
@@ -335,6 +340,72 @@ a:link {color: hsl(170, 45%, 43%);
 
 .review__sub-p {font-size: 14px;}
 
+/* Section-c */
+
+.section-c {background-color: hsl(238, 22%, 44%);
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            color: white;}
+
+.section-c__h {padding-top: 59.5px;
+               margin-bottom: 24px;}
+
+.section-c__p {margin-bottom: 25.5px; width: 72.53%; text-align: center;}
+
+.section-c__email-bottom {margin-bottom: 8px;
+                          width: 64%;
+                          border: none;
+                          height: 32px;}
+
+.section-c__sub-h {margin-bottom: 71px;
+                   line-height: 32px;
+                   vertical-align: middle;
+                   text-align: center;
+                   background-color: hsl(224, 93%, 58%);
+                   width: 64%}
+
+.section-c__email-bottom::placeholder {padding-left: 8.5px;
+                                       color: hsl(0, 0%, 75%);}
+
+/* Footer */
+
+footer {background-color: hsl(243, 87%, 12%);
+        color: white;
+        padding-left: 39px;}
+
+.logo-bottom {margin-top: 66.5px;}
+
+.wlogo {fill: white;}
+
+.phone {margin-right: 21px;}
+
+.phone-p { margin-top: 44px;}
+
+.email {margin-right: 19px;}
+
+.email-p {margin-top: 23.5px; margin-bottom: 65px;}
+
+.address-p {margin-bottom: 26px;}
+
+.p-mid {margin-bottom: 55.5px;}
+
+.p-end {margin-bottom: 0px; padding-bottom: 83px;}
+
+/* Icons */
+
+.icons {text-align: center; padding-bottom: 47px;}
+
+.fa-facebook,
+.fa-instagram {border: 1px solid white; border-radius: 50px; padding: 8px;}
+
+.fa-twitter {margin-left: 11px;
+             margin-right: 11px;
+             border: 1px solid white;
+             border-radius: 50px;
+             padding: 8px;}
+
+}
 
 
 
