@@ -5,6 +5,11 @@
 * {margin: 0;
    padding: 0;}
 
+
+@media screen and (max-width: 480px)
+
+{
+
 .logo {float: left;
        margin-left: 24px;
        margin-top: 24px;
@@ -17,4 +22,146 @@ nav {float: right;
      margin: 30px 25.5px 106.5px 0px;
      font-size: 11px;}
 
-.section-a {clear: both;}
+.section-a__column-left,
+.section-a__column-right,
+.section-b__column-right,
+.section-b__column-left  {clear: both;
+                          display: flex;
+                          flex-flow: column nowrap;
+                          justify-content: center;
+                          align-items: center;
+                          width: 100%;
+                          text-align: center;}
+
+.folder {width: 300px;
+         margin-bottom: 58px;}
+
+.section-a__column-left__h {width: 84%;
+                            margin-bottom: 40px;}
+
+.section-a__column-left__p {margin-bottom: 37px;
+                            width: 75.2%;}
+
+.email-top {margin-bottom: 16px;}
+
+.section-a__column-left__btn {margin-bottom: 81px;}
+
+.bg {clip-path: circle(60.0% at 50% 100%); width: 100%; height: 500px; background-color: hsl(240, 75%, 98%);}
+
+.section-b {background-color: hsl(240, 75%, 98%);}
+
+.chat {width: 320px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
