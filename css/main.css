@@ -191,6 +191,8 @@ footer {background-color: hsl(243, 87%, 12%);
 
 .p-end {margin-bottom: 0px; padding-bottom: 83px;}
 
+/* Icons */
+
 .icons {text-align: center; padding-bottom: 47px;}
 
 .fa-facebook,
@@ -202,58 +204,24 @@ footer {background-color: hsl(243, 87%, 12%);
              border-radius: 50px;
              padding: 8px;}
 
+}
 
+@media screen and (min-width: 1200px) and (max-width: 1920px)
 
+{
 
+  /* Top page */
 
+  .logo {float: left;
+         margin-left: 80px;
+         margin-top: 67px;}
 
+  li {display: inline;
+      margin-left: 25.5px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  nav {float: right;
+       margin: 81px 81px 108px 0px;
+       font-size: 21px;}
 
 
 
