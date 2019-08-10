@@ -167,14 +167,40 @@ a:link {color: hsl(170, 45%, 43%);
 .section-c__email-bottom::placeholder {padding-left: 8.5px;
                                        color: hsl(0, 0%, 75%);}
 
+/* Footer */
 
+footer {background-color: hsl(243, 87%, 12%);
+        color: white;
+        padding-left: 39px;}
 
+.logo-bottom {margin-top: 66.5px;}
 
+.wlogo {fill: white;}
 
+.phone {margin-right: 21px;}
 
+.phone-p { margin-top: 44px;}
 
+.email {margin-right: 19px;}
 
+.email-p {margin-top: 23.5px; margin-bottom: 65px;}
 
+.address-p {margin-bottom: 26px;}
+
+.p-mid {margin-bottom: 55.5px;}
+
+.p-end {margin-bottom: 0px; padding-bottom: 83px;}
+
+.icons {text-align: center; padding-bottom: 47px;}
+
+.fa-facebook,
+.fa-instagram {border: 1px solid white; border-radius: 50px; padding: 8px;}
+
+.fa-twitter {margin-left: 11px;
+             margin-right: 11px;
+             border: 1px solid white;
+             border-radius: 50px;
+             padding: 8px;}
 
 
 
