@@ -70,13 +70,18 @@ nav {float: right;
 
 .section-b__column-left {width: 100%;}
 
-.chat {width: 320px; margin-bottom: 97px;}
+.chat {width: 320px;
+       margin-bottom: 97px;}
 
 .section-b__column-left__h {margin-bottom: 36px;}
 
-.section-b__column-left__p1 {margin-bottom: 27px; width: 84.53%; text-align: left;}
+.section-b__column-left__p1 {margin-bottom: 27px;
+                             width: 84.53%;
+                             text-align: left;}
 
-.section-b__column-left__p2 {margin-bottom: 41.5px; width: 84.53%; text-align: left;}
+.section-b__column-left__p2 {margin-bottom: 41.5px;
+                             width: 84.53%;
+                             text-align: left;}
 
 a:link {color: hsl(170, 45%, 43%);
         text-decoration: none;
@@ -86,18 +91,47 @@ a:link {color: hsl(170, 45%, 43%);
 
 .arrow {position: relative; top: 3px;}
 
+.review {padding-bottom: 82px;
+         width: 100%;
+         display: flex;
+         flex-flow: column nowrap;
+         align-items: center;
+         background-color: hsl(240, 75%, 98%);}
 
+.review__inside {clip-path: inset(0% 10% 10% 10% round 10px);
+                 height: 300px;
+                 display: flex;
+                 justify-content: center;
+                 flex-flow: column nowrap;
+                 align-items: center;
+                 background-color: white; text-align: center;}
 
+.quotes {align-self: flex-start;}
 
+.quote-wrapper {width: 40%;
+                align-self: flex-start;
+                margin-bottom: 15px;}
 
+.review__p {width: 63.33%;
+            text-align: left;}
 
+.review__h {align-self: flex-start;}
 
+.review__sub-p {align-self: flex-start;}
 
+.review__founder {width: 63.33%;
+                  margin-top: 22px;
+                  display: flex;
+                  justify-content: flex-start;
+                  flex-flow: row nowrap;}
 
+.review__founder__column-left {clip-path: circle(45% at 50% 50%);  margin-right: 8px;}
 
+.avatar {width: 23px;}
 
+.review__h {font-size: 10px;}
 
-
+.review__sub-p {font-size: 10px;}
 
 
 
