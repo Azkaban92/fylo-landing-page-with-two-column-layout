@@ -10,6 +10,8 @@
 
 {
 
+/* Top page */
+
 .logo {float: left;
        margin-left: 24px;
        margin-top: 24px;
@@ -21,6 +23,8 @@ li {display: inline;
 nav {float: right;
      margin: 30px 25.5px 106.5px 0px;
      font-size: 11px;}
+
+/* Section-a */
 
 .section-a__column-left,
 .section-a__column-right,
@@ -56,6 +60,8 @@ nav {float: right;
                               box-shadow: 3px 4px hsla(0, 0%, 75%, 0.1);
                               color: white;
                               padding: 12px 0;}
+
+/* Section-b */
 
 .bg {clip-path: ellipse(50% 90% at 50% 100%);
      width: 100%;
@@ -98,7 +104,7 @@ a:link {color: hsl(170, 45%, 43%);
          align-items: center;
          background-color: hsl(240, 75%, 98%);}
 
-.review__inside {clip-path: inset(0% 10% 10% 10% round 10px);
+.review__inside {clip-path: inset(0% 10% 10% 10% round 5px);
                  height: 300px;
                  display: flex;
                  justify-content: center;
@@ -133,15 +139,33 @@ a:link {color: hsl(170, 45%, 43%);
 
 .review__sub-p {font-size: 10px;}
 
+/* Section-c */
 
+.section-c {background-color: hsl(238, 22%, 44%);
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            color: white;}
 
+.section-c__h {padding-top: 59.5px;
+               margin-bottom: 24px;}
 
+.section-c__p {margin-bottom: 25.5px; width: 72.53%; text-align: center;}
 
+.section-c__email-bottom {margin-bottom: 8px;
+                          width: 64%;
+                          border: none;
+                          height: 32px;}
 
+.section-c__sub-h {margin-bottom: 71px;
+                   line-height: 32px;
+                   vertical-align: middle;
+                   text-align: center;
+                   background-color: hsl(224, 93%, 58%);
+                   width: 64%}
 
-
-
-
+.section-c__email-bottom::placeholder {padding-left: 8.5px;
+                                       color: hsl(0, 0%, 75%);}
 
 
 
