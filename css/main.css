@@ -46,12 +46,12 @@ nav {float: right;
 .section-a__column-left__p {margin-bottom: 37px;
                             width: 75.2%;}
 
-.email-top {margin-bottom: 16px;
+.section-a__email-top {margin-bottom: 16px;
             width: 81.07%;
             border: 1px solid hsl(243, 87%, 12%);
             height: 40px;}
 
-.email-top::placeholder {padding-left: 22px;}
+.section-a__email-top::placeholder {padding-left: 22px;}
 
 .section-a__column-left__btn {margin-bottom: 81px;
                               width: 81.07%;
@@ -213,7 +213,7 @@ footer {background-color: hsl(243, 87%, 12%);
   /* Top page */
 
   .logo {float: left;
-         margin-left: 80px;
+         margin-left: 81px;
          margin-top: 67px;}
 
   li {display: inline;
@@ -223,23 +223,60 @@ footer {background-color: hsl(243, 87%, 12%);
        margin: 81px 81px 108px 0px;
        font-size: 21px;}
 
+  /* Section-a */
+
+.section-a  {display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            clear: both;}
+
+.folder {width: 640px;}
+
+.section-a__column-left {width: 41.67%; order: 1; margin-left: 81px;}
+
+.section-a__column-right {width: 50%; order: 2; margin-right: 81px;}
+
+.section-a__column-left__h {margin-bottom: 14px;}
+
+.section-a__column-left__p {margin-bottom: 15px;}
+
+.section-a__email-top {line-height: 31.5px;}
+
+.section-a__column-left__btn {padding: 9px 31.5px;
+                              border: none;
+                              border-top: 1px solid hsl(243, 87%, 12%);
+                              background-color: hsl(224, 93%, 58%);
+                              color: white;
+                              border-radius: 3px;
+                              box-shadow: 0 5px 5px hsla(0, 0%, 75%, 0.4)}
+
+.section-a__email-top::placeholder {padding-left: 22px;}
+
+/* Section-b */
 
 
+.bg {clip-path: ellipse(50% 100% at 50% 100%);
+     width: 100%;
+     margin-top: 175px;
+     height: 50px;
+     background-color: hsl(240, 75%, 98%);}
 
+.section-b  {display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: hsl(240, 75%, 98%);}
 
+.chat {width: 537px;}
 
+.section-b__column-left {width: 36.11%; order: 1; margin-left: 81px;}
 
+.section-b__column-right {order: 2; margin-right: 81px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
+a:link {color: hsl(170, 45%, 43%);
+        text-decoration: none;
+        border-bottom: 1px solid hsl(170, 45%, 43%);
+        padding-bottom: 6px;
+        margin-bottom: 40px;}
 }
