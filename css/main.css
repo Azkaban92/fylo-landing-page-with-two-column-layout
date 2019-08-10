@@ -42,23 +42,49 @@ nav {float: right;
 .section-a__column-left__p {margin-bottom: 37px;
                             width: 75.2%;}
 
-.email-top {margin-bottom: 16px;}
+.email-top {margin-bottom: 16px;
+            width: 81.07%;
+            border: 1px solid hsl(243, 87%, 12%);
+            height: 40px;}
 
-.section-a__column-left__btn {margin-bottom: 81px;}
+.email-top::placeholder {padding-left: 22px;}
 
-.bg {clip-path: circle(60.0% at 50% 100%); width: 100%; height: 500px; background-color: hsl(240, 75%, 98%);}
+.section-a__column-left__btn {margin-bottom: 81px;
+                              width: 81.07%;
+                              border: 0;
+                              background-color: hsl(224, 93%, 58%);
+                              box-shadow: 3px 4px hsla(0, 0%, 75%, 0.1);
+                              color: white;
+                              padding: 12px 0;}
 
-.section-b {background-color: hsl(240, 75%, 98%);}
+.bg {clip-path: circle(100.0% at 50% 100%);
+     width: 100%;
+     height: 400px;
+     background-color: hsl(240, 75%, 98%);}
 
-.chat {width: 320px;}
+.section-b {display: flex;
+            flex-flow: column nowrap;
+            align-items: flex-start;
+            width: 100%;
+            background-color: hsl(240, 75%, 98%);}
 
+.section-b__column-left {width: 100%;}
 
+.chat {width: 320px; margin-bottom: 97px;}
 
+.section-b__column-left__h {margin-bottom: 36px;}
 
+.section-b__column-left__p1 {margin-bottom: 27px; width: 84.53%; text-align: left;}
 
+.section-b__column-left__p2 {margin-bottom: 41.5px; width: 84.53%; text-align: left;}
 
+a:link {color: hsl(170, 45%, 43%);
+        text-decoration: none;
+        border-bottom: 1px solid hsl(170, 45%, 43%);
+        padding-bottom: 6px;
+        margin-bottom: 40px;}
 
-
+.arrow {position: relative; top: 3px;}
 
 
 
