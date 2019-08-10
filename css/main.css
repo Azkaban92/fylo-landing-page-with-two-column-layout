@@ -10,6 +10,11 @@
        margin-top: 24px;
        width: 80px;}
 
-li {display: inline;}
+li {display: inline;
+    margin-left: 25.5px;}
 
-nav {float: right;}
+nav {float: right;
+     margin: 30px 25.5px 106.5px 0px;
+     font-size: 11px;}
+
+.section-a {clear: both;}
