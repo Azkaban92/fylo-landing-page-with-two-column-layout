@@ -5,6 +5,9 @@
 * {margin: 0;
    padding: 0;}
 
+.non-standard {font-family: "Raleway"; font-weight: 400;}
+
+.standard {font-family: "Open Sans"; font-weight: 400;}
 
 @media screen and (max-width: 480px)
 
@@ -41,7 +44,8 @@ nav {float: right;
          margin-bottom: 58px;}
 
 .section-a__column-left__h {width: 84%;
-                            margin-bottom: 40px;}
+                            margin-bottom: 40px;
+                            font-weight: 700;}
 
 .section-a__column-left__p {margin-bottom: 37px;
                             width: 75.2%;}
@@ -79,7 +83,7 @@ nav {float: right;
 .chat {width: 320px;
        margin-bottom: 97px;}
 
-.section-b__column-left__h {margin-bottom: 36px;}
+.section-b__column-left__h {margin-bottom: 36px; font-weight: 700;}
 
 .section-b__column-left__p1 {margin-bottom: 27px;
                              width: 84.53%;
@@ -123,7 +127,7 @@ a:link {color: hsl(170, 45%, 43%);
 .review__p {width: 63.33%;
             text-align: left;}
 
-.review__h {align-self: flex-start;}
+.review__h {align-self: flex-start; font-weight: 700;}
 
 .review__sub-p {align-self: flex-start;}
 
@@ -151,7 +155,8 @@ a:link {color: hsl(170, 45%, 43%);
             color: white;}
 
 .section-c__h {padding-top: 59.5px;
-               margin-bottom: 24px;}
+               margin-bottom: 24px;
+               font-weight: 700;}
 
 .section-c__p {margin-bottom: 25.5px;
                width: 72.53%;
@@ -242,15 +247,25 @@ footer {background-color: hsl(243, 87%, 12%);
 
 .folder {width: 640px;}
 
-.section-a__column-left {width: 41.67%; order: 1; margin-left: 81px;}
+.section-a__column-left {width: 41.67%;
+                         order: 1;
+                         margin-left: 81px;}
 
-.section-a__column-right {width: 640px; order: 2; margin-right: 81px;}
+.section-a__column-right {width: 640px;
+                          order: 2;
+                          margin-right: 81px;}
 
-.section-a__column-left__h {margin-bottom: 14px; width: 582px; font-size: 40px;}
+.section-a__column-left__h {margin-bottom: 14px;
+                            width: 582px;
+                            font-size: 40px;
+                            font-weight: 700;}
 
-.section-a__column-left__p {margin-bottom: 15px; font-size: 22px;}
+.section-a__column-left__p {margin-bottom: 15px;
+                            font-size: 22px;}
 
-.section-a__email-top {line-height: 52px; width: 318px; margin-right: 16px;}
+.section-a__email-top {line-height: 52px;
+                       width: 318px;
+                       margin-right: 16px;}
 
 .section-a__column-left__btn {padding: 18px 42px;
                               border: none;
@@ -279,9 +294,12 @@ footer {background-color: hsl(243, 87%, 12%);
 
 .chat {width: 537px;}
 
-.section-b__column-left {width: 36.11%; order: 1; margin-left: 81px;}
+.section-b__column-left {width: 36.11%;
+                         order: 1;
+                         margin-left: 81px;}
 
-.section-b__column-right {order: 2; margin-right: 81px;}
+.section-b__column-right {order: 2;
+                          margin-right: 81px;}
 
 a:link {color: hsl(170, 45%, 43%);
         text-decoration: none;
@@ -290,12 +308,18 @@ a:link {color: hsl(170, 45%, 43%);
         margin-bottom: 40px;
         font-size: 22px;}
 
-.arrow {position: relative; top: 3px;}
+.arrow {position: relative;
+        top: 3px;}
 
-.section-b__column-left__h {margin-bottom: 48px; font-size: 40px; width: 655px; margin-top: 115px;}
+.section-b__column-left__h {margin-bottom: 48px;
+                            font-size: 40px;
+                            width: 655px;
+                            margin-top: 115px;
+                            font-weight: 700;}
 
 .section-b__column-left__p1,
-.section-b__column-left__p2 {margin-bottom: 28px; font-size: 22px;}
+.section-b__column-left__p2 {margin-bottom: 28px;
+                             font-size: 22px;}
 
 .review {padding-bottom: 82px;
          display: flex;
@@ -325,7 +349,7 @@ a:link {color: hsl(170, 45%, 43%);
 .review__p {width: 63.33%;
             text-align: left;}
 
-.review__h {align-self: flex-start;}
+.review__h {align-self: flex-start; font-weight: 700;}
 
 .review__sub-p {align-self: flex-start;}
 
@@ -354,7 +378,8 @@ a:link {color: hsl(170, 45%, 43%);
 
 .section-c__h {margin-top: 113px;
                margin-bottom: 36px;
-               font-size: 30px;}
+               font-size: 30px;
+               font-weight: 700;}
 
 .section-c__p {margin-bottom: 92px;
                width: 518px;
