@@ -98,18 +98,20 @@ a:link {color: hsl(170, 45%, 43%);
 .arrow {position: relative; top: 3px;}
 
 .review {padding-bottom: 82px;
-         width: 100%;
+         width: 78.05%;
          display: flex;
          flex-flow: column nowrap;
          align-items: center;
+
          background-color: hsl(240, 75%, 98%);}
 
-.review__inside {clip-path: inset(0% 10% 10% 10% round 5px);
-                 height: 300px;
+.review__inside {height: 300px;
                  display: flex;
+                 border-radius: 10px;
                  justify-content: center;
                  flex-flow: column nowrap;
                  align-items: center;
+                 box-shadow: 3px 3px 3px 3px hsla(0, 0%, 75%, 0.4);
                  background-color: white; text-align: center;}
 
 .quotes {align-self: flex-start;}
@@ -164,10 +166,9 @@ a:link {color: hsl(170, 45%, 43%);
 
 .section-c__sub-h {margin-bottom: 71px;
                    line-height: 32px;
-                   vertical-align: middle;
                    text-align: center;
                    background-color: hsl(224, 93%, 58%);
-                   width: 100%}
+                   width: 100%;}
 
 .section-c__email-bottom::placeholder {padding-left: 8.5px;
                                        color: hsl(0, 0%, 75%);}
@@ -248,7 +249,7 @@ footer {background-color: hsl(243, 87%, 12%);
 
 .section-a__email-top {line-height: 52px; width: 318px; margin-right: 16px;}
 
-.section-a__column-left__btn {padding: 18px 62px;
+.section-a__column-left__btn {padding: 18px 42px;
                               border: none;
                               border-top: 1px solid hsl(243, 87%, 12%);
                               background-color: hsl(224, 93%, 58%);
@@ -288,29 +289,29 @@ a:link {color: hsl(170, 45%, 43%);
 
 .arrow {position: relative; top: 3px;}
 
-.section-b__column-left__h {margin-bottom: 48px; font-size: 40px;}
+.section-b__column-left__h {margin-bottom: 48px; font-size: 40px; width: 655px; margin-top: 115px;}
 
 .section-b__column-left__p1,
 .section-b__column-left__p2 {margin-bottom: 28px; font-size: 22px;}
 
 .review {padding-bottom: 82px;
-         width: 100%;
          display: flex;
          flex-flow: column nowrap;
-         align-items: center;
+         align-items: flex-start;
          background-color: hsl(240, 75%, 98%);}
 
-.review__inside {clip-path: inset(0% 0% 0% 0% round 10px);
-                 height: 300px;
+.review__inside {height: 300px;
+                 width: 356px;
+                 border-radius: 10px;
                  display: flex;
                  font-size: 20px;
                  margin-top: 71px;
                  justify-content: center;
                  flex-flow: column nowrap;
-                 align-items: center;
+                 align-items:center;
                  background-color: white;
                  text-align: center;
-                 box-shadow: 50px 50px hsla(0, 0%, 75%, 0.4);}
+                 box-shadow: 3px 3px 3px 3px hsla(0, 0%, 75%, 0.4);}
 
 .quotes {align-self: flex-start;}
 
@@ -342,70 +343,38 @@ a:link {color: hsl(170, 45%, 43%);
 
 /* Section-c */
 
-.section-c {background-color: hsl(238, 22%, 44%);
-            display: flex;
-            flex-flow: column nowrap;
-            align-items: center;
-            color: white;}
+.section-c  {display: flex;
+             flex-flow: row nowrap;
+             justify-content: space-between;
+             background-color: hsl(238, 22%, 44%);
+             color: white;}
 
-.section-c__h {padding-top: 59.5px;
-               margin-bottom: 24px;}
+.section-c__h {margin-top: 113px;
+               margin-bottom: 36px;
+               font-size: 30px;}
 
-.section-c__p {margin-bottom: 25.5px; width: 72.53%; text-align: center;}
+.section-c__p {margin-bottom: 92px;
+               width: 518px;
+               font-size: 22px;}
 
-.section-c__email-bottom {margin-bottom: 8px;
-                          width: 64%;
-                          border: none;
-                          height: 32px;}
+.section-c__column-left {margin-left: 81px;}
+
+.section-c__column-right  {margin-right: 120px;
+                           margin-top: 113px;}
+
+.section-c__email-bottom {margin-bottom: 16px;
+                          width: 462px;
+                          line-height: 48px;}
 
 .section-c__sub-h {margin-bottom: 71px;
-                   line-height: 32px;
-                   vertical-align: middle;
+                   line-height: 48px;
                    text-align: center;
                    background-color: hsl(224, 93%, 58%);
-                   width: 64%}
+                   width: 200px;}
 
-.section-c__email-bottom::placeholder {padding-left: 8.5px;
+.section-c__email-bottom::placeholder {padding-left: 23px;
                                        color: hsl(0, 0%, 75%);}
 
-/* Footer */
-
-footer {background-color: hsl(243, 87%, 12%);
-        color: white;
-        padding-left: 39px;}
-
-.logo-bottom {margin-top: 66.5px;}
-
-.wlogo {fill: white;}
-
-.phone {margin-right: 21px;}
-
-.phone-p { margin-top: 44px;}
-
-.email {margin-right: 19px;}
-
-.email-p {margin-top: 23.5px; margin-bottom: 65px;}
-
-.address-p {margin-bottom: 26px;}
-
-.p-mid {margin-bottom: 55.5px;}
-
-.p-end {margin-bottom: 0px; padding-bottom: 83px;}
-
-/* Icons */
-
-.icons {text-align: center; padding-bottom: 47px;}
-
-.fa-facebook,
-.fa-instagram {border: 1px solid white; border-radius: 50px; padding: 8px;}
-
-.fa-twitter {margin-left: 11px;
-             margin-right: 11px;
-             border: 1px solid white;
-             border-radius: 50px;
-             padding: 8px;}
-
-}
 
 
 
